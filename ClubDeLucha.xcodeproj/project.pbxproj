@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EB01A52CCF8AC000AA3E9A /* ClubDeLuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */; };
+		82EB01A72CCF8AC000AA3E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A62CCF8AC000AA3E9A /* ContentView.swift */; };
+		82EB01A92CCF8AC200AA3E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */; };
+		82EB01AC2CCF8AC200AA3E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */; };
+		82EB01AE2CCF8AC200AA3E9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */; };
+		82EB01B12CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01AF2CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld */; };
+		82EB01BB2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01BA2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift */; };
+		82EB01C52CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01C42CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift */; };
+		82EB01C72CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EB01B72CCF8AC200AA3E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EB01992CCF8AC000AA3E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EB01A02CCF8AC000AA3E9A;
+			remoteInfo = ClubDeLucha;
+		};
+		82EB01C12CCF8AC200AA3E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EB01992CCF8AC000AA3E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EB01A02CCF8AC000AA3E9A;
+			remoteInfo = ClubDeLucha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82EB01A12CCF8AC000AA3E9A /* ClubDeLucha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubDeLucha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaApp.swift; sourceTree = "<group>"; };
+		82EB01A62CCF8AC000AA3E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		82EB01B02CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClubDeLucha.xcdatamodel; sourceTree = "<group>"; };
+		82EB01B62CCF8AC200AA3E9A /* ClubDeLuchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubDeLuchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB01BA2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaTests.swift; sourceTree = "<group>"; };
+		82EB01C02CCF8AC200AA3E9A /* ClubDeLuchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubDeLuchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB01C42CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaUITests.swift; sourceTree = "<group>"; };
+		82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EB019E2CCF8AC000AA3E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01B32CCF8AC200AA3E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01BD2CCF8AC200AA3E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EB01982CCF8AC000AA3E9A = {
+			isa = PBXGroup;
+			children = (
+				82EB01A32CCF8AC000AA3E9A /* ClubDeLucha */,
+				82EB01B92CCF8AC200AA3E9A /* ClubDeLuchaTests */,
+				82EB01C32CCF8AC200AA3E9A /* ClubDeLuchaUITests */,
+				82EB01A22CCF8AC000AA3E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EB01A22CCF8AC000AA3E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01A12CCF8AC000AA3E9A /* ClubDeLucha.app */,
+				82EB01B62CCF8AC200AA3E9A /* ClubDeLuchaTests.xctest */,
+				82EB01C02CCF8AC200AA3E9A /* ClubDeLuchaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EB01A32CCF8AC000AA3E9A /* ClubDeLucha */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */,
+				82EB01A62CCF8AC000AA3E9A /* ContentView.swift */,
+				82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */,
+				82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */,
+				82EB01AF2CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld */,
+				82EB01AA2CCF8AC200AA3E9A /* Preview Content */,
+			);
+			path = ClubDeLucha;
+			sourceTree = "<group>";
+		};
+		82EB01AA2CCF8AC200AA3E9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82EB01B92CCF8AC200AA3E9A /* ClubDeLuchaTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01BA2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift */,
+			);
+			path = ClubDeLuchaTests;
+			sourceTree = "<group>";
+		};
+		82EB01C32CCF8AC200AA3E9A /* ClubDeLuchaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01C42CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift */,
+				82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */,
+			);
+			path = ClubDeLuchaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EB01A02CCF8AC000AA3E9A /* ClubDeLucha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB01CA2CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLucha" */;
+			buildPhases = (
+				82EB019D2CCF8AC000AA3E9A /* Sources */,
+				82EB019E2CCF8AC000AA3E9A /* Frameworks */,
+				82EB019F2CCF8AC000AA3E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClubDeLucha;
+			productName = ClubDeLucha;
+			productReference = 82EB01A12CCF8AC000AA3E9A /* ClubDeLucha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82EB01B52CCF8AC200AA3E9A /* ClubDeLuchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB01CD2CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLuchaTests" */;
+			buildPhases = (
+				82EB01B22CCF8AC200AA3E9A /* Sources */,
+				82EB01B32CCF8AC200AA3E9A /* Frameworks */,
+				82EB01B42CCF8AC200AA3E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EB01B82CCF8AC200AA3E9A /* PBXTargetDependency */,
+			);
+			name = ClubDeLuchaTests;
+			productName = ClubDeLuchaTests;
+			productReference = 82EB01B62CCF8AC200AA3E9A /* ClubDeLuchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82EB01BF2CCF8AC200AA3E9A /* ClubDeLuchaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB01D02CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLuchaUITests" */;
+			buildPhases = (
+				82EB01BC2CCF8AC200AA3E9A /* Sources */,
+				82EB01BD2CCF8AC200AA3E9A /* Frameworks */,
+				82EB01BE2CCF8AC200AA3E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EB01C22CCF8AC200AA3E9A /* PBXTargetDependency */,
+			);
+			name = ClubDeLuchaUITests;
+			productName = ClubDeLuchaUITests;
+			productReference = 82EB01C02CCF8AC200AA3E9A /* ClubDeLuchaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EB01992CCF8AC000AA3E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					82EB01A02CCF8AC000AA3E9A = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					82EB01B52CCF8AC200AA3E9A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 82EB01A02CCF8AC000AA3E9A;
+					};
+					82EB01BF2CCF8AC200AA3E9A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 82EB01A02CCF8AC000AA3E9A;
+					};
+				};
+			};
+			buildConfigurationList = 82EB019C2CCF8AC000AA3E9A /* Build configuration list for PBXProject "ClubDeLucha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EB01982CCF8AC000AA3E9A;
+			productRefGroup = 82EB01A22CCF8AC000AA3E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EB01A02CCF8AC000AA3E9A /* ClubDeLucha */,
+				82EB01B52CCF8AC200AA3E9A /* ClubDeLuchaTests */,
+				82EB01BF2CCF8AC200AA3E9A /* ClubDeLuchaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EB019F2CCF8AC000AA3E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB01AC2CCF8AC200AA3E9A /* Preview Assets.xcassets in Resources */,
+				82EB01A92CCF8AC200AA3E9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01B42CCF8AC200AA3E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01BE2CCF8AC200AA3E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EB019D2CCF8AC000AA3E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB01B12CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld in Sources */,
+				82EB01AE2CCF8AC200AA3E9A /* Persistence.swift in Sources */,
+				82EB01A72CCF8AC000AA3E9A /* ContentView.swift in Sources */,
+				82EB01A52CCF8AC000AA3E9A /* ClubDeLuchaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01B22CCF8AC200AA3E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB01BB2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB01BC2CCF8AC200AA3E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB01C52CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift in Sources */,
+				82EB01C72CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EB01B82CCF8AC200AA3E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EB01A02CCF8AC000AA3E9A /* ClubDeLucha */;
+			targetProxy = 82EB01B72CCF8AC200AA3E9A /* PBXContainerItemProxy */;
+		};
+		82EB01C22CCF8AC200AA3E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EB01A02CCF8AC000AA3E9A /* ClubDeLucha */;
+			targetProxy = 82EB01C12CCF8AC200AA3E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82EB01C82CCF8AC200AA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82EB01C92CCF8AC200AA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EB01CB2CCF8AC200AA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClubDeLucha/Preview Content\"";
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLucha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82EB01CC2CCF8AC200AA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClubDeLucha/Preview Content\"";
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLucha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82EB01CE2CCF8AC200AA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLuchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubDeLucha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClubDeLucha";
+			};
+			name = Debug;
+		};
+		82EB01CF2CCF8AC200AA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLuchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubDeLucha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClubDeLucha";
+			};
+			name = Release;
+		};
+		82EB01D12CCF8AC200AA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLuchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubDeLucha;
+			};
+			name = Debug;
+		};
+		82EB01D22CCF8AC200AA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75SEZC5TGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = armentechnology.ClubDeLuchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubDeLucha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EB019C2CCF8AC000AA3E9A /* Build configuration list for PBXProject "ClubDeLucha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB01C82CCF8AC200AA3E9A /* Debug */,
+				82EB01C92CCF8AC200AA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB01CA2CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLucha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB01CB2CCF8AC200AA3E9A /* Debug */,
+				82EB01CC2CCF8AC200AA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB01CD2CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLuchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB01CE2CCF8AC200AA3E9A /* Debug */,
+				82EB01CF2CCF8AC200AA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB01D02CCF8AC200AA3E9A /* Build configuration list for PBXNativeTarget "ClubDeLuchaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB01D12CCF8AC200AA3E9A /* Debug */,
+				82EB01D22CCF8AC200AA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82EB01AF2CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82EB01B02CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodel */,
+			);
+			currentVersion = 82EB01B02CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodel */;
+			path = ClubDeLucha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82EB01992CCF8AC000AA3E9A /* Project object */;
+}
