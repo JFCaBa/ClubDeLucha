@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82EB01A52CCF8AC000AA3E9A /* ClubDeLuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */; };
-		82EB01A72CCF8AC000AA3E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A62CCF8AC000AA3E9A /* ContentView.swift */; };
+		82EB01A72CCF8AC000AA3E9A /* PhoneLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A62CCF8AC000AA3E9A /* PhoneLoginView.swift */; };
 		82EB01A92CCF8AC200AA3E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */; };
 		82EB01AC2CCF8AC200AA3E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */; };
 		82EB01AE2CCF8AC200AA3E9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */; };
@@ -16,6 +16,205 @@
 		82EB01BB2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01BA2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift */; };
 		82EB01C52CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01C42CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift */; };
 		82EB01C72CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */; };
+		82EB01E02CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01DF2CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift */; };
+		82EB01E12CCF8F1E00AA3E9A /* PhoneLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01DF2CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift */; };
+		82EB01E22CCF8F1E00AA3E9A /* PhoneLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01DF2CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift */; };
+		82EB01E42CCF8FBF00AA3E9A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E32CCF8FBF00AA3E9A /* AuthService.swift */; };
+		82EB01E52CCF8FBF00AA3E9A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E32CCF8FBF00AA3E9A /* AuthService.swift */; };
+		82EB01E62CCF8FBF00AA3E9A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E32CCF8FBF00AA3E9A /* AuthService.swift */; };
+		82EB01E82CCF939100AA3E9A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E72CCF939100AA3E9A /* RootView.swift */; };
+		82EB01E92CCF939100AA3E9A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E72CCF939100AA3E9A /* RootView.swift */; };
+		82EB01EA2CCF939100AA3E9A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01E72CCF939100AA3E9A /* RootView.swift */; };
+		82EB01EC2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EB2CCF93B800AA3E9A /* CoordinatorProtocol.swift */; };
+		82EB01ED2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EB2CCF93B800AA3E9A /* CoordinatorProtocol.swift */; };
+		82EB01EE2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EB2CCF93B800AA3E9A /* CoordinatorProtocol.swift */; };
+		82EB01F02CCF93D300AA3E9A /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EF2CCF93D300AA3E9A /* MockAuthService.swift */; };
+		82EB01F12CCF93D300AA3E9A /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EF2CCF93D300AA3E9A /* MockAuthService.swift */; };
+		82EB01F22CCF93D300AA3E9A /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01EF2CCF93D300AA3E9A /* MockAuthService.swift */; };
+		82EB01F42CCF943E00AA3E9A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F32CCF943E00AA3E9A /* AppCoordinator.swift */; };
+		82EB01F52CCF943E00AA3E9A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F32CCF943E00AA3E9A /* AppCoordinator.swift */; };
+		82EB01F62CCF943E00AA3E9A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F32CCF943E00AA3E9A /* AppCoordinator.swift */; };
+		82EB01F82CCF948D00AA3E9A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F72CCF948D00AA3E9A /* MainTabView.swift */; };
+		82EB01F92CCF948D00AA3E9A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F72CCF948D00AA3E9A /* MainTabView.swift */; };
+		82EB01FA2CCF948D00AA3E9A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01F72CCF948D00AA3E9A /* MainTabView.swift */; };
+		82EB01FC2CCF94A400AA3E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FB2CCF94A400AA3E9A /* HomeView.swift */; };
+		82EB01FD2CCF94A400AA3E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FB2CCF94A400AA3E9A /* HomeView.swift */; };
+		82EB01FE2CCF94A400AA3E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FB2CCF94A400AA3E9A /* HomeView.swift */; };
+		82EB02002CCF94C100AA3E9A /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FF2CCF94C100AA3E9A /* MainTabViewModel.swift */; };
+		82EB02012CCF94C200AA3E9A /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FF2CCF94C100AA3E9A /* MainTabViewModel.swift */; };
+		82EB02022CCF94C200AA3E9A /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01FF2CCF94C100AA3E9A /* MainTabViewModel.swift */; };
+		82EB02042CCF95A100AA3E9A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02032CCF95A100AA3E9A /* ScheduleView.swift */; };
+		82EB02052CCF95A100AA3E9A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02032CCF95A100AA3E9A /* ScheduleView.swift */; };
+		82EB02062CCF95A100AA3E9A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02032CCF95A100AA3E9A /* ScheduleView.swift */; };
+		82EB02082CCF95B400AA3E9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02072CCF95B400AA3E9A /* ProfileView.swift */; };
+		82EB02092CCF95B400AA3E9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02072CCF95B400AA3E9A /* ProfileView.swift */; };
+		82EB020A2CCF95B400AA3E9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02072CCF95B400AA3E9A /* ProfileView.swift */; };
+		82EB02242CCFA2E400AA3E9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02232CCFA2E400AA3E9A /* Event.swift */; };
+		82EB02252CCFA2E400AA3E9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02232CCFA2E400AA3E9A /* Event.swift */; };
+		82EB02262CCFA2E400AA3E9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02232CCFA2E400AA3E9A /* Event.swift */; };
+		82EB02282CCFA30D00AA3E9A /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02272CCFA30D00AA3E9A /* Training.swift */; };
+		82EB02292CCFA30D00AA3E9A /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02272CCFA30D00AA3E9A /* Training.swift */; };
+		82EB022A2CCFA30D00AA3E9A /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02272CCFA30D00AA3E9A /* Training.swift */; };
+		82EB022C2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022B2CCFA34300AA3E9A /* ScheduleViewModel.swift */; };
+		82EB022D2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022B2CCFA34300AA3E9A /* ScheduleViewModel.swift */; };
+		82EB022E2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022B2CCFA34300AA3E9A /* ScheduleViewModel.swift */; };
+		82EB02302CCFA37300AA3E9A /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022F2CCFA37300AA3E9A /* TrainingRowView.swift */; };
+		82EB02312CCFA37300AA3E9A /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022F2CCFA37300AA3E9A /* TrainingRowView.swift */; };
+		82EB02322CCFA37300AA3E9A /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB022F2CCFA37300AA3E9A /* TrainingRowView.swift */; };
+		82EB02342CCFA76F00AA3E9A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02332CCFA76F00AA3E9A /* Notification.swift */; };
+		82EB02352CCFA76F00AA3E9A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02332CCFA76F00AA3E9A /* Notification.swift */; };
+		82EB02362CCFA76F00AA3E9A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02332CCFA76F00AA3E9A /* Notification.swift */; };
+		82EB023A2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02392CCFA7A700AA3E9A /* NotificationsViewModel.swift */; };
+		82EB023B2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02392CCFA7A700AA3E9A /* NotificationsViewModel.swift */; };
+		82EB023C2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02392CCFA7A700AA3E9A /* NotificationsViewModel.swift */; };
+		82EB023F2CCFA7C700AA3E9A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB023E2CCFA7C700AA3E9A /* NotificationsView.swift */; };
+		82EB02402CCFA7C700AA3E9A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB023E2CCFA7C700AA3E9A /* NotificationsView.swift */; };
+		82EB02412CCFA7C700AA3E9A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB023E2CCFA7C700AA3E9A /* NotificationsView.swift */; };
+		82EB02442CCFA7F800AA3E9A /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02432CCFA7F800AA3E9A /* NotificationRow.swift */; };
+		82EB02452CCFA7F800AA3E9A /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02432CCFA7F800AA3E9A /* NotificationRow.swift */; };
+		82EB02462CCFA7F800AA3E9A /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02432CCFA7F800AA3E9A /* NotificationRow.swift */; };
+		82EB02472CCFB1E100AA3E9A /* ClubDeLuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */; };
+		82EB02482CCFB1E200AA3E9A /* ClubDeLuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */; };
+		82EB024A2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02492CCFCA3D00AA3E9A /* String+Localised.swift */; };
+		82EB024B2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02492CCFCA3D00AA3E9A /* String+Localised.swift */; };
+		82EB024C2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02492CCFCA3D00AA3E9A /* String+Localised.swift */; };
+		82EB024E2CCFCB6D00AA3E9A /* PhoneLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A62CCF8AC000AA3E9A /* PhoneLoginView.swift */; };
+		82EB024F2CCFCB6D00AA3E9A /* PhoneLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01A62CCF8AC000AA3E9A /* PhoneLoginView.swift */; };
+		82EB02512CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82EB02502CCFCBF100AA3E9A /* Localizable.xcstrings */; };
+		82EB02522CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82EB02502CCFCBF100AA3E9A /* Localizable.xcstrings */; };
+		82EB02532CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82EB02502CCFCBF100AA3E9A /* Localizable.xcstrings */; };
+		82EB02552CCFCE4800AA3E9A /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02542CCFCE4800AA3E9A /* QRCode.swift */; };
+		82EB02562CCFCE4800AA3E9A /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02542CCFCE4800AA3E9A /* QRCode.swift */; };
+		82EB02572CCFCE4800AA3E9A /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02542CCFCE4800AA3E9A /* QRCode.swift */; };
+		82EB025A2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02592CCFCE7200AA3E9A /* QRCodeService.swift */; };
+		82EB025B2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02592CCFCE7200AA3E9A /* QRCodeService.swift */; };
+		82EB025C2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02592CCFCE7200AA3E9A /* QRCodeService.swift */; };
+		82EB025F2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB025E2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift */; };
+		82EB02602CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB025E2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift */; };
+		82EB02612CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB025E2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift */; };
+		82EB02632CCFCED800AA3E9A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02622CCFCED800AA3E9A /* HomeViewModel.swift */; };
+		82EB02642CCFCED800AA3E9A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02622CCFCED800AA3E9A /* HomeViewModel.swift */; };
+		82EB02652CCFCED800AA3E9A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02622CCFCED800AA3E9A /* HomeViewModel.swift */; };
+		82EB02672CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02662CCFCF0A00AA3E9A /* QRCodeView.swift */; };
+		82EB02682CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02662CCFCF0A00AA3E9A /* QRCodeView.swift */; };
+		82EB02692CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02662CCFCF0A00AA3E9A /* QRCodeView.swift */; };
+		82EB026B2CCFCF2700AA3E9A /* Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026A2CCFCF2700AA3E9A /* Fight.swift */; };
+		82EB026C2CCFCF2700AA3E9A /* Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026A2CCFCF2700AA3E9A /* Fight.swift */; };
+		82EB026D2CCFCF2700AA3E9A /* Fight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026A2CCFCF2700AA3E9A /* Fight.swift */; };
+		82EB026F2CCFCF3B00AA3E9A /* FightRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026E2CCFCF3B00AA3E9A /* FightRowView.swift */; };
+		82EB02702CCFCF3B00AA3E9A /* FightRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026E2CCFCF3B00AA3E9A /* FightRowView.swift */; };
+		82EB02712CCFCF3B00AA3E9A /* FightRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB026E2CCFCF3B00AA3E9A /* FightRowView.swift */; };
+		82EB02732CD01A6900AA3E9A /* CalendarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02722CD01A6800AA3E9A /* CalendarState.swift */; };
+		82EB02742CD01A6900AA3E9A /* CalendarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02722CD01A6800AA3E9A /* CalendarState.swift */; };
+		82EB02752CD01A6900AA3E9A /* CalendarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02722CD01A6800AA3E9A /* CalendarState.swift */; };
+		82EB02772CD0E5AC00AA3E9A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02762CD0E5AC00AA3E9A /* MenuItem.swift */; };
+		82EB02782CD0E5AC00AA3E9A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02762CD0E5AC00AA3E9A /* MenuItem.swift */; };
+		82EB02792CD0E5AC00AA3E9A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02762CD0E5AC00AA3E9A /* MenuItem.swift */; };
+		82EB027B2CD0E5CA00AA3E9A /* StatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027A2CD0E5CA00AA3E9A /* StatItem.swift */; };
+		82EB027C2CD0E5CB00AA3E9A /* StatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027A2CD0E5CA00AA3E9A /* StatItem.swift */; };
+		82EB027D2CD0E5CB00AA3E9A /* StatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027A2CD0E5CA00AA3E9A /* StatItem.swift */; };
+		82EB02802CD0F58800AA3E9A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027F2CD0F58800AA3E9A /* EditProfileView.swift */; };
+		82EB02812CD0F58800AA3E9A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027F2CD0F58800AA3E9A /* EditProfileView.swift */; };
+		82EB02822CD0F58800AA3E9A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB027F2CD0F58800AA3E9A /* EditProfileView.swift */; };
+		82EB02842CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02832CD0F5A900AA3E9A /* EditProfileViewModel.swift */; };
+		82EB02852CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02832CD0F5A900AA3E9A /* EditProfileViewModel.swift */; };
+		82EB02862CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02832CD0F5A900AA3E9A /* EditProfileViewModel.swift */; };
+		82EB02882CD0F5C100AA3E9A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02872CD0F5C100AA3E9A /* Profile.swift */; };
+		82EB02892CD0F5C100AA3E9A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02872CD0F5C100AA3E9A /* Profile.swift */; };
+		82EB028A2CD0F5C100AA3E9A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02872CD0F5C100AA3E9A /* Profile.swift */; };
+		82EB028C2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028B2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift */; };
+		82EB028D2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028B2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift */; };
+		82EB028E2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028B2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift */; };
+		82EB02902CD0F5FE00AA3E9A /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028F2CD0F5FE00AA3E9A /* ProfileService.swift */; };
+		82EB02912CD0F5FE00AA3E9A /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028F2CD0F5FE00AA3E9A /* ProfileService.swift */; };
+		82EB02922CD0F5FE00AA3E9A /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB028F2CD0F5FE00AA3E9A /* ProfileService.swift */; };
+		82EB02962CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02952CD0F62400AA3E9A /* AuthServiceProtocol.swift */; };
+		82EB02972CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02952CD0F62400AA3E9A /* AuthServiceProtocol.swift */; };
+		82EB02982CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02952CD0F62400AA3E9A /* AuthServiceProtocol.swift */; };
+		82EB029A2CD0F65500AA3E9A /* MockProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02992CD0F65500AA3E9A /* MockProfileService.swift */; };
+		82EB029B2CD0F65500AA3E9A /* MockProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02992CD0F65500AA3E9A /* MockProfileService.swift */; };
+		82EB029C2CD0F65500AA3E9A /* MockProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02992CD0F65500AA3E9A /* MockProfileService.swift */; };
+		82EB029E2CD0F67400AA3E9A /* EditProfileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB029D2CD0F67400AA3E9A /* EditProfileTest.swift */; };
+		82EB02A02CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB029F2CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift */; };
+		82EB02A12CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB029F2CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift */; };
+		82EB02A22CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB029F2CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift */; };
+		82EB02A42CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A32CD0FC2800AA3E9A /* SettingsViewModel.swift */; };
+		82EB02A52CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A32CD0FC2800AA3E9A /* SettingsViewModel.swift */; };
+		82EB02A62CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A32CD0FC2800AA3E9A /* SettingsViewModel.swift */; };
+		82EB02AA2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A92CD0FC4D00AA3E9A /* SettingsView.swift */; };
+		82EB02AB2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A92CD0FC4D00AA3E9A /* SettingsView.swift */; };
+		82EB02AC2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02A92CD0FC4D00AA3E9A /* SettingsView.swift */; };
+		82EB02AF2CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02AE2CD0FD2C00AA3E9A /* AppCoordinator+Settings.swift */; };
+		82EB02B02CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02AE2CD0FD2C00AA3E9A /* AppCoordinator+Settings.swift */; };
+		82EB02B12CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02AE2CD0FD2C00AA3E9A /* AppCoordinator+Settings.swift */; };
+		82EB02B42CD0FF1E00AA3E9A /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B32CD0FF1E00AA3E9A /* Subscription.swift */; };
+		82EB02B52CD0FF1E00AA3E9A /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B32CD0FF1E00AA3E9A /* Subscription.swift */; };
+		82EB02B62CD0FF1E00AA3E9A /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B32CD0FF1E00AA3E9A /* Subscription.swift */; };
+		82EB02B92CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B82CD0FF6400AA3E9A /* PaymentsViewModel.swift */; };
+		82EB02BA2CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B82CD0FF6400AA3E9A /* PaymentsViewModel.swift */; };
+		82EB02BB2CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02B82CD0FF6400AA3E9A /* PaymentsViewModel.swift */; };
+		82EB02BE2CD0FFA200AA3E9A /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02BD2CD0FFA200AA3E9A /* PaymentView.swift */; };
+		82EB02BF2CD0FFA200AA3E9A /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02BD2CD0FFA200AA3E9A /* PaymentView.swift */; };
+		82EB02C02CD0FFA200AA3E9A /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02BD2CD0FFA200AA3E9A /* PaymentView.swift */; };
+		82EB02C22CD142E500AA3E9A /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C12CD142E500AA3E9A /* Mocks.swift */; };
+		82EB02C32CD142E500AA3E9A /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C12CD142E500AA3E9A /* Mocks.swift */; };
+		82EB02C42CD142E500AA3E9A /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C12CD142E500AA3E9A /* Mocks.swift */; };
+		82EB02C82CD14E8100AA3E9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C72CD14E8100AA3E9A /* APIService.swift */; };
+		82EB02C92CD14E8100AA3E9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C72CD14E8100AA3E9A /* APIService.swift */; };
+		82EB02CA2CD14E8100AA3E9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02C72CD14E8100AA3E9A /* APIService.swift */; };
+		82EB02CD2CD14EB200AA3E9A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02CC2CD14EB200AA3E9A /* Keychain.swift */; };
+		82EB02CE2CD14EB200AA3E9A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02CC2CD14EB200AA3E9A /* Keychain.swift */; };
+		82EB02CF2CD14EB200AA3E9A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02CC2CD14EB200AA3E9A /* Keychain.swift */; };
+		82EB02D12CD14EC700AA3E9A /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D02CD14EC700AA3E9A /* MockAPIService.swift */; };
+		82EB02D22CD14EC700AA3E9A /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D02CD14EC700AA3E9A /* MockAPIService.swift */; };
+		82EB02D32CD14EC700AA3E9A /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D02CD14EC700AA3E9A /* MockAPIService.swift */; };
+		82EB02D42CD14FFF00AA3E9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */; };
+		82EB02D52CD1500000AA3E9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */; };
+		82EB02D72CD150D700AA3E9A /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D62CD150D700AA3E9A /* APIEndpoint.swift */; };
+		82EB02D82CD150D700AA3E9A /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D62CD150D700AA3E9A /* APIEndpoint.swift */; };
+		82EB02D92CD150D700AA3E9A /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02D62CD150D700AA3E9A /* APIEndpoint.swift */; };
+		82EB02DB2CD150FE00AA3E9A /* APIService+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DA2CD150FE00AA3E9A /* APIService+Token.swift */; };
+		82EB02DC2CD150FF00AA3E9A /* APIService+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DA2CD150FE00AA3E9A /* APIService+Token.swift */; };
+		82EB02DD2CD150FF00AA3E9A /* APIService+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DA2CD150FE00AA3E9A /* APIService+Token.swift */; };
+		82EB02DF2CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DE2CD1512500AA3E9A /* KeyChainProtocol.swift */; };
+		82EB02E02CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DE2CD1512500AA3E9A /* KeyChainProtocol.swift */; };
+		82EB02E12CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02DE2CD1512500AA3E9A /* KeyChainProtocol.swift */; };
+		82EB02E32CD1515800AA3E9A /* APIService+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E22CD1515700AA3E9A /* APIService+Errors.swift */; };
+		82EB02E42CD1515800AA3E9A /* APIService+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E22CD1515700AA3E9A /* APIService+Errors.swift */; };
+		82EB02E52CD1515800AA3E9A /* APIService+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E22CD1515700AA3E9A /* APIService+Errors.swift */; };
+		82EB02E72CD1517800AA3E9A /* APIService+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E62CD1517800AA3E9A /* APIService+Methods.swift */; };
+		82EB02E82CD1517800AA3E9A /* APIService+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E62CD1517800AA3E9A /* APIService+Methods.swift */; };
+		82EB02E92CD1517800AA3E9A /* APIService+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02E62CD1517800AA3E9A /* APIService+Methods.swift */; };
+		82EB02EB2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EA2CD1518F00AA3E9A /* APIService+Configuration.swift */; };
+		82EB02EC2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EA2CD1518F00AA3E9A /* APIService+Configuration.swift */; };
+		82EB02ED2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EA2CD1518F00AA3E9A /* APIService+Configuration.swift */; };
+		82EB02EF2CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EE2CD151B100AA3E9A /* APIServiceProtocol.swift */; };
+		82EB02F02CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EE2CD151B100AA3E9A /* APIServiceProtocol.swift */; };
+		82EB02F12CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02EE2CD151B100AA3E9A /* APIServiceProtocol.swift */; };
+		82EB02F32CD151EA00AA3E9A /* APIService+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F22CD151E900AA3E9A /* APIService+Empty.swift */; };
+		82EB02F42CD151EA00AA3E9A /* APIService+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F22CD151E900AA3E9A /* APIService+Empty.swift */; };
+		82EB02F52CD151EA00AA3E9A /* APIService+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F22CD151E900AA3E9A /* APIService+Empty.swift */; };
+		82EB02F82CD5681600AA3E9A /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F72CD5681600AA3E9A /* DependencyContainer.swift */; };
+		82EB02F92CD5681600AA3E9A /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F72CD5681600AA3E9A /* DependencyContainer.swift */; };
+		82EB02FA2CD5681600AA3E9A /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02F72CD5681600AA3E9A /* DependencyContainer.swift */; };
+		82EB02FC2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FB2CD5686D00AA3E9A /* EmptyResponse.swift */; };
+		82EB02FD2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FB2CD5686D00AA3E9A /* EmptyResponse.swift */; };
+		82EB02FE2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FB2CD5686D00AA3E9A /* EmptyResponse.swift */; };
+		82EB03002CD5688C00AA3E9A /* RealAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FF2CD5688C00AA3E9A /* RealAuthService.swift */; };
+		82EB03012CD5688C00AA3E9A /* RealAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FF2CD5688C00AA3E9A /* RealAuthService.swift */; };
+		82EB03022CD5688C00AA3E9A /* RealAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB02FF2CD5688C00AA3E9A /* RealAuthService.swift */; };
+		82EB03042CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03032CD568AC00AA3E9A /* RealQRCodeService.swift */; };
+		82EB03052CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03032CD568AC00AA3E9A /* RealQRCodeService.swift */; };
+		82EB03062CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03032CD568AC00AA3E9A /* RealQRCodeService.swift */; };
+		82EB03082CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03072CD5691D00AA3E9A /* EndpointProtocol.swift */; };
+		82EB03092CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03072CD5691D00AA3E9A /* EndpointProtocol.swift */; };
+		82EB030A2CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB03072CD5691D00AA3E9A /* EndpointProtocol.swift */; };
+		82EB030C2CD5694400AA3E9A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030B2CD5694400AA3E9A /* APIClient.swift */; };
+		82EB030D2CD5694400AA3E9A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030B2CD5694400AA3E9A /* APIClient.swift */; };
+		82EB030E2CD5694400AA3E9A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030B2CD5694400AA3E9A /* APIClient.swift */; };
+		82EB03102CD5695F00AA3E9A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030F2CD5695F00AA3E9A /* APIError.swift */; };
+		82EB03112CD5695F00AA3E9A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030F2CD5695F00AA3E9A /* APIError.swift */; };
+		82EB03122CD5695F00AA3E9A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB030F2CD5695F00AA3E9A /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +237,7 @@
 /* Begin PBXFileReference section */
 		82EB01A12CCF8AC000AA3E9A /* ClubDeLucha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubDeLucha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaApp.swift; sourceTree = "<group>"; };
-		82EB01A62CCF8AC000AA3E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82EB01A62CCF8AC000AA3E9A /* PhoneLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLoginView.swift; sourceTree = "<group>"; };
 		82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +247,71 @@
 		82EB01C02CCF8AC200AA3E9A /* ClubDeLuchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubDeLuchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EB01C42CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaUITests.swift; sourceTree = "<group>"; };
 		82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDeLuchaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82EB01DF2CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLoginViewModel.swift; sourceTree = "<group>"; };
+		82EB01E32CCF8FBF00AA3E9A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		82EB01E72CCF939100AA3E9A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		82EB01EB2CCF93B800AA3E9A /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		82EB01EF2CCF93D300AA3E9A /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		82EB01F32CCF943E00AA3E9A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		82EB01F72CCF948D00AA3E9A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		82EB01FB2CCF94A400AA3E9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		82EB01FF2CCF94C100AA3E9A /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		82EB02032CCF95A100AA3E9A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		82EB02072CCF95B400AA3E9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		82EB02232CCFA2E400AA3E9A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		82EB02272CCFA30D00AA3E9A /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		82EB022B2CCFA34300AA3E9A /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		82EB022F2CCFA37300AA3E9A /* TrainingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowView.swift; sourceTree = "<group>"; };
+		82EB02332CCFA76F00AA3E9A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		82EB02392CCFA7A700AA3E9A /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		82EB023E2CCFA7C700AA3E9A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		82EB02432CCFA7F800AA3E9A /* NotificationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRow.swift; sourceTree = "<group>"; };
+		82EB02492CCFCA3D00AA3E9A /* String+Localised.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localised.swift"; sourceTree = "<group>"; };
+		82EB02502CCFCBF100AA3E9A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		82EB02542CCFCE4800AA3E9A /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		82EB02592CCFCE7200AA3E9A /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		82EB025E2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeServiceProtocol.swift; sourceTree = "<group>"; };
+		82EB02622CCFCED800AA3E9A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		82EB02662CCFCF0A00AA3E9A /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		82EB026A2CCFCF2700AA3E9A /* Fight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight.swift; sourceTree = "<group>"; };
+		82EB026E2CCFCF3B00AA3E9A /* FightRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightRowView.swift; sourceTree = "<group>"; };
+		82EB02722CD01A6800AA3E9A /* CalendarState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarState.swift; sourceTree = "<group>"; };
+		82EB02762CD0E5AC00AA3E9A /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		82EB027A2CD0E5CA00AA3E9A /* StatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatItem.swift; sourceTree = "<group>"; };
+		82EB027F2CD0F58800AA3E9A /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		82EB02832CD0F5A900AA3E9A /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		82EB02872CD0F5C100AA3E9A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		82EB028B2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileServiceProtocol.swift; sourceTree = "<group>"; };
+		82EB028F2CD0F5FE00AA3E9A /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		82EB02952CD0F62400AA3E9A /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
+		82EB02992CD0F65500AA3E9A /* MockProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProfileService.swift; sourceTree = "<group>"; };
+		82EB029D2CD0F67400AA3E9A /* EditProfileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTest.swift; sourceTree = "<group>"; };
+		82EB029F2CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppCoordinator+EditProfile.swift"; sourceTree = "<group>"; };
+		82EB02A32CD0FC2800AA3E9A /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		82EB02A92CD0FC4D00AA3E9A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		82EB02AE2CD0FD2C00AA3E9A /* AppCoordinator+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppCoordinator+Settings.swift"; sourceTree = "<group>"; };
+		82EB02B32CD0FF1E00AA3E9A /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		82EB02B82CD0FF6400AA3E9A /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
+		82EB02BD2CD0FFA200AA3E9A /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		82EB02C12CD142E500AA3E9A /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		82EB02C72CD14E8100AA3E9A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		82EB02CC2CD14EB200AA3E9A /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		82EB02D02CD14EC700AA3E9A /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		82EB02D62CD150D700AA3E9A /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		82EB02DA2CD150FE00AA3E9A /* APIService+Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Token.swift"; sourceTree = "<group>"; };
+		82EB02DE2CD1512500AA3E9A /* KeyChainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainProtocol.swift; sourceTree = "<group>"; };
+		82EB02E22CD1515700AA3E9A /* APIService+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Errors.swift"; sourceTree = "<group>"; };
+		82EB02E62CD1517800AA3E9A /* APIService+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Methods.swift"; sourceTree = "<group>"; };
+		82EB02EA2CD1518F00AA3E9A /* APIService+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Configuration.swift"; sourceTree = "<group>"; };
+		82EB02EE2CD151B100AA3E9A /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		82EB02F22CD151E900AA3E9A /* APIService+Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService+Empty.swift"; sourceTree = "<group>"; };
+		82EB02F72CD5681600AA3E9A /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		82EB02FB2CD5686D00AA3E9A /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
+		82EB02FF2CD5688C00AA3E9A /* RealAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAuthService.swift; sourceTree = "<group>"; };
+		82EB03032CD568AC00AA3E9A /* RealQRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealQRCodeService.swift; sourceTree = "<group>"; };
+		82EB03072CD5691D00AA3E9A /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		82EB030B2CD5694400AA3E9A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		82EB030F2CD5695F00AA3E9A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +362,11 @@
 		82EB01A32CCF8AC000AA3E9A /* ClubDeLucha */ = {
 			isa = PBXGroup;
 			children = (
-				82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */,
-				82EB01A62CCF8AC000AA3E9A /* ContentView.swift */,
-				82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */,
-				82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */,
 				82EB01AF2CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld */,
+				82EB020B2CCF9A6800AA3E9A /* App */,
+				82EB020F2CCF9ABF00AA3E9A /* Core */,
+				82EB02122CCF9F2000AA3E9A /* Features */,
+				82EB02112CCF9F0300AA3E9A /* Resources */,
 				82EB01AA2CCF8AC200AA3E9A /* Preview Content */,
 			);
 			path = ClubDeLucha;
@@ -112,6 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				82EB01AB2CCF8AC200AA3E9A /* Preview Assets.xcassets */,
+				82EB02C12CD142E500AA3E9A /* Mocks.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -120,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				82EB01BA2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift */,
+				82EB029D2CD0F67400AA3E9A /* EditProfileTest.swift */,
 			);
 			path = ClubDeLuchaTests;
 			sourceTree = "<group>";
@@ -131,6 +397,413 @@
 				82EB01C62CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift */,
 			);
 			path = ClubDeLuchaUITests;
+			sourceTree = "<group>";
+		};
+		82EB020B2CCF9A6800AA3E9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01A42CCF8AC000AA3E9A /* ClubDeLuchaApp.swift */,
+				82EB01E72CCF939100AA3E9A /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		82EB020C2CCF9A7F00AA3E9A /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01F32CCF943E00AA3E9A /* AppCoordinator.swift */,
+				82EB029F2CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift */,
+				82EB02AE2CD0FD2C00AA3E9A /* AppCoordinator+Settings.swift */,
+				82EB01EB2CCF93B800AA3E9A /* CoordinatorProtocol.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		82EB020D2CCF9A9400AA3E9A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01E32CCF8FBF00AA3E9A /* AuthService.swift */,
+				82EB01EF2CCF93D300AA3E9A /* MockAuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		82EB020E2CCF9AA600AA3E9A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01AD2CCF8AC200AA3E9A /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		82EB020F2CCF9ABF00AA3E9A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				82EB020C2CCF9A7F00AA3E9A /* Coordinators */,
+				82EB024D2CCFCA5100AA3E9A /* Extensions */,
+				82EB02102CCF9AFC00AA3E9A /* Services */,
+				82EB020E2CCF9AA600AA3E9A /* Persistence */,
+				82EB02942CD0F61100AA3E9A /* Protocols */,
+				82EB02F72CD5681600AA3E9A /* DependencyContainer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		82EB02102CCF9AFC00AA3E9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02CB2CD14E8A00AA3E9A /* API */,
+				82EB020D2CCF9A9400AA3E9A /* Auth */,
+				82EB025D2CCFCE8200AA3E9A /* QRCode */,
+				82EB02932CD0F60A00AA3E9A /* Profile */,
+				82EB02FF2CD5688C00AA3E9A /* RealAuthService.swift */,
+				82EB03032CD568AC00AA3E9A /* RealQRCodeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82EB02112CCF9F0300AA3E9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01A82CCF8AC200AA3E9A /* Assets.xcassets */,
+				82EB02502CCFCBF100AA3E9A /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82EB02122CCF9F2000AA3E9A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02B22CD0FF0900AA3E9A /* Payments */,
+				82EB02132CCF9F4000AA3E9A /* Auth */,
+				82EB021F2CCF9FA400AA3E9A /* MainTab */,
+				82EB02162CCF9F6900AA3E9A /* Home */,
+				82EB02192CCF9F7B00AA3E9A /* Schedule */,
+				82EB021C2CCF9F9400AA3E9A /* Profile */,
+				82EB02372CCFA78200AA3E9A /* Notifications */,
+				82EB02A72CD0FC2D00AA3E9A /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		82EB02132CCF9F4000AA3E9A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02142CCF9F4E00AA3E9A /* Views */,
+				82EB02152CCF9F5E00AA3E9A /* ViewModels */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		82EB02142CCF9F4E00AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01A62CCF8AC000AA3E9A /* PhoneLoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB02152CCF9F5E00AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01DF2CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02162CCF9F6900AA3E9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02582CCFCE5000AA3E9A /* Models */,
+				82EB02182CCF9F7700AA3E9A /* Views */,
+				82EB02172CCF9F7000AA3E9A /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		82EB02172CCF9F7000AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02622CCFCED800AA3E9A /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02182CCF9F7700AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01FB2CCF94A400AA3E9A /* HomeView.swift */,
+				82EB02662CCFCF0A00AA3E9A /* QRCodeView.swift */,
+				82EB026E2CCFCF3B00AA3E9A /* FightRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB02192CCF9F7B00AA3E9A /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02222CCFA2D000AA3E9A /* Models */,
+				82EB021A2CCF9F8000AA3E9A /* Views */,
+				82EB021B2CCF9F8500AA3E9A /* ViewModels */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		82EB021A2CCF9F8000AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02032CCF95A100AA3E9A /* ScheduleView.swift */,
+				82EB022F2CCFA37300AA3E9A /* TrainingRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB021B2CCF9F8500AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB022B2CCFA34300AA3E9A /* ScheduleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB021C2CCF9F9400AA3E9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				82EB027E2CD0E5E600AA3E9A /* Models */,
+				82EB021D2CCF9F9900AA3E9A /* Views */,
+				82EB021E2CCF9F9E00AA3E9A /* ViewModels */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		82EB021D2CCF9F9900AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02072CCF95B400AA3E9A /* ProfileView.swift */,
+				82EB027A2CD0E5CA00AA3E9A /* StatItem.swift */,
+				82EB027F2CD0F58800AA3E9A /* EditProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB021E2CCF9F9E00AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02832CD0F5A900AA3E9A /* EditProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB021F2CCF9FA400AA3E9A /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02202CCF9FAA00AA3E9A /* Views */,
+				82EB02212CCF9FAF00AA3E9A /* ViewModels */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		82EB02202CCF9FAA00AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01F72CCF948D00AA3E9A /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB02212CCF9FAF00AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB01FF2CCF94C100AA3E9A /* MainTabViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02222CCFA2D000AA3E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02232CCFA2E400AA3E9A /* Event.swift */,
+				82EB02272CCFA30D00AA3E9A /* Training.swift */,
+				82EB02722CD01A6800AA3E9A /* CalendarState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82EB02372CCFA78200AA3E9A /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02382CCFA78B00AA3E9A /* Models */,
+				82EB02422CCFA7D400AA3E9A /* Views */,
+				82EB023D2CCFA7BD00AA3E9A /* ViewModels */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		82EB02382CCFA78B00AA3E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02332CCFA76F00AA3E9A /* Notification.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82EB023D2CCFA7BD00AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02392CCFA7A700AA3E9A /* NotificationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02422CCFA7D400AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB023E2CCFA7C700AA3E9A /* NotificationsView.swift */,
+				82EB02432CCFA7F800AA3E9A /* NotificationRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB024D2CCFCA5100AA3E9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02492CCFCA3D00AA3E9A /* String+Localised.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82EB02582CCFCE5000AA3E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02542CCFCE4800AA3E9A /* QRCode.swift */,
+				82EB026A2CCFCF2700AA3E9A /* Fight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82EB025D2CCFCE8200AA3E9A /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02592CCFCE7200AA3E9A /* QRCodeService.swift */,
+				82EB025E2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		82EB027E2CD0E5E600AA3E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02762CD0E5AC00AA3E9A /* MenuItem.swift */,
+				82EB02872CD0F5C100AA3E9A /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82EB02932CD0F60A00AA3E9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				82EB028F2CD0F5FE00AA3E9A /* ProfileService.swift */,
+				82EB02992CD0F65500AA3E9A /* MockProfileService.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		82EB02942CD0F61100AA3E9A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				82EB028B2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift */,
+				82EB02952CD0F62400AA3E9A /* AuthServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		82EB02A72CD0FC2D00AA3E9A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02AD2CD0FC9300AA3E9A /* Views */,
+				82EB02A82CD0FC3300AA3E9A /* ViewModels */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		82EB02A82CD0FC3300AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02A32CD0FC2800AA3E9A /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02AD2CD0FC9300AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02A92CD0FC4D00AA3E9A /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB02B22CD0FF0900AA3E9A /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02B72CD0FF2900AA3E9A /* Models */,
+				82EB02C62CD146D000AA3E9A /* Views */,
+				82EB02BC2CD0FF8800AA3E9A /* ViewModels */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		82EB02B72CD0FF2900AA3E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02B32CD0FF1E00AA3E9A /* Subscription.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82EB02BC2CD0FF8800AA3E9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02B82CD0FF6400AA3E9A /* PaymentsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		82EB02C62CD146D000AA3E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02BD2CD0FFA200AA3E9A /* PaymentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82EB02CB2CD14E8A00AA3E9A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				82EB030B2CD5694400AA3E9A /* APIClient.swift */,
+				82EB030F2CD5695F00AA3E9A /* APIError.swift */,
+				82EB02C72CD14E8100AA3E9A /* APIService.swift */,
+				82EB02EA2CD1518F00AA3E9A /* APIService+Configuration.swift */,
+				82EB02F22CD151E900AA3E9A /* APIService+Empty.swift */,
+				82EB02D62CD150D700AA3E9A /* APIEndpoint.swift */,
+				82EB02E22CD1515700AA3E9A /* APIService+Errors.swift */,
+				82EB02E62CD1517800AA3E9A /* APIService+Methods.swift */,
+				82EB02DA2CD150FE00AA3E9A /* APIService+Token.swift */,
+				82EB02FB2CD5686D00AA3E9A /* EmptyResponse.swift */,
+				82EB02CC2CD14EB200AA3E9A /* Keychain.swift */,
+				82EB02D02CD14EC700AA3E9A /* MockAPIService.swift */,
+				82EB02F62CD152D500AA3E9A /* Protocols */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		82EB02F62CD152D500AA3E9A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				82EB02DE2CD1512500AA3E9A /* KeyChainProtocol.swift */,
+				82EB02EE2CD151B100AA3E9A /* APIServiceProtocol.swift */,
+				82EB03072CD5691D00AA3E9A /* EndpointProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +871,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
+				ORGANIZATIONNAME = "Jose Catala";
 				TargetAttributes = {
 					82EB01A02CCF8AC000AA3E9A = {
 						CreatedOnToolsVersion = 15.1;
@@ -219,6 +893,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 82EB01982CCF8AC000AA3E9A;
 			productRefGroup = 82EB01A22CCF8AC000AA3E9A /* Products */;
@@ -239,6 +914,7 @@
 			files = (
 				82EB01AC2CCF8AC200AA3E9A /* Preview Assets.xcassets in Resources */,
 				82EB01A92CCF8AC200AA3E9A /* Assets.xcassets in Resources */,
+				82EB02512CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +922,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EB02522CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +930,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EB02532CCFCBF100AA3E9A /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +941,73 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EB02802CD0F58800AA3E9A /* EditProfileView.swift in Sources */,
+				82EB02D72CD150D700AA3E9A /* APIEndpoint.swift in Sources */,
+				82EB03082CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */,
+				82EB028C2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */,
+				82EB02342CCFA76F00AA3E9A /* Notification.swift in Sources */,
+				82EB030C2CD5694400AA3E9A /* APIClient.swift in Sources */,
+				82EB02DF2CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */,
+				82EB02282CCFA30D00AA3E9A /* Training.swift in Sources */,
+				82EB02B42CD0FF1E00AA3E9A /* Subscription.swift in Sources */,
+				82EB02EF2CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */,
 				82EB01B12CCF8AC200AA3E9A /* ClubDeLucha.xcdatamodeld in Sources */,
+				82EB02B92CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */,
+				82EB02902CD0F5FE00AA3E9A /* ProfileService.swift in Sources */,
+				82EB025F2CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */,
+				82EB023F2CCFA7C700AA3E9A /* NotificationsView.swift in Sources */,
+				82EB02302CCFA37300AA3E9A /* TrainingRowView.swift in Sources */,
+				82EB03102CD5695F00AA3E9A /* APIError.swift in Sources */,
+				82EB026B2CCFCF2700AA3E9A /* Fight.swift in Sources */,
+				82EB02D12CD14EC700AA3E9A /* MockAPIService.swift in Sources */,
 				82EB01AE2CCF8AC200AA3E9A /* Persistence.swift in Sources */,
-				82EB01A72CCF8AC000AA3E9A /* ContentView.swift in Sources */,
+				82EB02672CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */,
+				82EB02732CD01A6900AA3E9A /* CalendarState.swift in Sources */,
+				82EB02442CCFA7F800AA3E9A /* NotificationRow.swift in Sources */,
+				82EB01F42CCF943E00AA3E9A /* AppCoordinator.swift in Sources */,
+				82EB02E72CD1517800AA3E9A /* APIService+Methods.swift in Sources */,
+				82EB02CD2CD14EB200AA3E9A /* Keychain.swift in Sources */,
+				82EB02A42CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */,
+				82EB01EC2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */,
+				82EB02DB2CD150FE00AA3E9A /* APIService+Token.swift in Sources */,
+				82EB01A72CCF8AC000AA3E9A /* PhoneLoginView.swift in Sources */,
+				82EB01E42CCF8FBF00AA3E9A /* AuthService.swift in Sources */,
+				82EB01F02CCF93D300AA3E9A /* MockAuthService.swift in Sources */,
+				82EB02082CCF95B400AA3E9A /* ProfileView.swift in Sources */,
+				82EB02AA2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */,
+				82EB02242CCFA2E400AA3E9A /* Event.swift in Sources */,
+				82EB02C22CD142E500AA3E9A /* Mocks.swift in Sources */,
+				82EB02C82CD14E8100AA3E9A /* APIService.swift in Sources */,
+				82EB01E82CCF939100AA3E9A /* RootView.swift in Sources */,
+				82EB025A2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */,
+				82EB02EB2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */,
+				82EB03042CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */,
+				82EB026F2CCFCF3B00AA3E9A /* FightRowView.swift in Sources */,
+				82EB02882CD0F5C100AA3E9A /* Profile.swift in Sources */,
+				82EB02002CCF94C100AA3E9A /* MainTabViewModel.swift in Sources */,
+				82EB02E32CD1515800AA3E9A /* APIService+Errors.swift in Sources */,
+				82EB02AF2CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */,
+				82EB023A2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */,
+				82EB02842CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */,
+				82EB02FC2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */,
+				82EB029A2CD0F65500AA3E9A /* MockProfileService.swift in Sources */,
+				82EB01E02CCF8F1D00AA3E9A /* PhoneLoginViewModel.swift in Sources */,
+				82EB022C2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */,
+				82EB03002CD5688C00AA3E9A /* RealAuthService.swift in Sources */,
+				82EB02552CCFCE4800AA3E9A /* QRCode.swift in Sources */,
+				82EB02BE2CD0FFA200AA3E9A /* PaymentView.swift in Sources */,
+				82EB024A2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */,
+				82EB02F32CD151EA00AA3E9A /* APIService+Empty.swift in Sources */,
+				82EB02632CCFCED800AA3E9A /* HomeViewModel.swift in Sources */,
+				82EB02962CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */,
+				82EB02042CCF95A100AA3E9A /* ScheduleView.swift in Sources */,
+				82EB01FC2CCF94A400AA3E9A /* HomeView.swift in Sources */,
+				82EB02772CD0E5AC00AA3E9A /* MenuItem.swift in Sources */,
 				82EB01A52CCF8AC000AA3E9A /* ClubDeLuchaApp.swift in Sources */,
+				82EB027B2CD0E5CA00AA3E9A /* StatItem.swift in Sources */,
+				82EB02A02CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */,
+				82EB02F82CD5681600AA3E9A /* DependencyContainer.swift in Sources */,
+				82EB01F82CCF948D00AA3E9A /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +1015,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EB01FD2CCF94A400AA3E9A /* HomeView.swift in Sources */,
+				82EB02E42CD1515800AA3E9A /* APIService+Errors.swift in Sources */,
+				82EB02602CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */,
+				82EB02D42CD14FFF00AA3E9A /* Persistence.swift in Sources */,
+				82EB01E92CCF939100AA3E9A /* RootView.swift in Sources */,
+				82EB01E52CCF8FBF00AA3E9A /* AuthService.swift in Sources */,
+				82EB03092CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */,
+				82EB02B52CD0FF1E00AA3E9A /* Subscription.swift in Sources */,
+				82EB01ED2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */,
+				82EB02BA2CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */,
+				82EB02092CCF95B400AA3E9A /* ProfileView.swift in Sources */,
+				82EB02562CCFCE4800AA3E9A /* QRCode.swift in Sources */,
+				82EB027C2CD0E5CB00AA3E9A /* StatItem.swift in Sources */,
+				82EB02402CCFA7C700AA3E9A /* NotificationsView.swift in Sources */,
+				82EB023B2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */,
+				82EB02D82CD150D700AA3E9A /* APIEndpoint.swift in Sources */,
+				82EB02D22CD14EC700AA3E9A /* MockAPIService.swift in Sources */,
 				82EB01BB2CCF8AC200AA3E9A /* ClubDeLuchaTests.swift in Sources */,
+				82EB02642CCFCED800AA3E9A /* HomeViewModel.swift in Sources */,
+				82EB02012CCF94C200AA3E9A /* MainTabViewModel.swift in Sources */,
+				82EB024B2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */,
+				82EB02782CD0E5AC00AA3E9A /* MenuItem.swift in Sources */,
+				82EB02CE2CD14EB200AA3E9A /* Keychain.swift in Sources */,
+				82EB02A52CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */,
+				82EB03012CD5688C00AA3E9A /* RealAuthService.swift in Sources */,
+				82EB02E02CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */,
+				82EB029B2CD0F65500AA3E9A /* MockProfileService.swift in Sources */,
+				82EB03052CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */,
+				82EB02EC2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */,
+				82EB029E2CD0F67400AA3E9A /* EditProfileTest.swift in Sources */,
+				82EB02292CCFA30D00AA3E9A /* Training.swift in Sources */,
+				82EB02F42CD151EA00AA3E9A /* APIService+Empty.swift in Sources */,
+				82EB01E12CCF8F1E00AA3E9A /* PhoneLoginViewModel.swift in Sources */,
+				82EB02DC2CD150FF00AA3E9A /* APIService+Token.swift in Sources */,
+				82EB028D2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */,
+				82EB02F92CD5681600AA3E9A /* DependencyContainer.swift in Sources */,
+				82EB02AB2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */,
+				82EB03112CD5695F00AA3E9A /* APIError.swift in Sources */,
+				82EB02742CD01A6900AA3E9A /* CalendarState.swift in Sources */,
+				82EB02C32CD142E500AA3E9A /* Mocks.swift in Sources */,
+				82EB02C92CD14E8100AA3E9A /* APIService.swift in Sources */,
+				82EB02812CD0F58800AA3E9A /* EditProfileView.swift in Sources */,
+				82EB02E82CD1517800AA3E9A /* APIService+Methods.swift in Sources */,
+				82EB01F12CCF93D300AA3E9A /* MockAuthService.swift in Sources */,
+				82EB01F92CCF948D00AA3E9A /* MainTabView.swift in Sources */,
+				82EB024E2CCFCB6D00AA3E9A /* PhoneLoginView.swift in Sources */,
+				82EB030D2CD5694400AA3E9A /* APIClient.swift in Sources */,
+				82EB01F52CCF943E00AA3E9A /* AppCoordinator.swift in Sources */,
+				82EB02B02CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */,
+				82EB02052CCF95A100AA3E9A /* ScheduleView.swift in Sources */,
+				82EB02702CCFCF3B00AA3E9A /* FightRowView.swift in Sources */,
+				82EB02892CD0F5C100AA3E9A /* Profile.swift in Sources */,
+				82EB025B2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */,
+				82EB026C2CCFCF2700AA3E9A /* Fight.swift in Sources */,
+				82EB02452CCFA7F800AA3E9A /* NotificationRow.swift in Sources */,
+				82EB02BF2CD0FFA200AA3E9A /* PaymentView.swift in Sources */,
+				82EB02352CCFA76F00AA3E9A /* Notification.swift in Sources */,
+				82EB02972CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */,
+				82EB022D2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */,
+				82EB02682CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */,
+				82EB02912CD0F5FE00AA3E9A /* ProfileService.swift in Sources */,
+				82EB02252CCFA2E400AA3E9A /* Event.swift in Sources */,
+				82EB02FD2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */,
+				82EB02852CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */,
+				82EB02F02CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */,
+				82EB02472CCFB1E100AA3E9A /* ClubDeLuchaApp.swift in Sources */,
+				82EB02A12CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */,
+				82EB02312CCFA37300AA3E9A /* TrainingRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +1090,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EB02822CD0F58800AA3E9A /* EditProfileView.swift in Sources */,
+				82EB02E52CD1515800AA3E9A /* APIService+Errors.swift in Sources */,
+				82EB028E2CD0F5E900AA3E9A /* ProfileServiceProtocol.swift in Sources */,
+				82EB02D52CD1500000AA3E9A /* Persistence.swift in Sources */,
+				82EB02022CCF94C200AA3E9A /* MainTabViewModel.swift in Sources */,
+				82EB020A2CCF95B400AA3E9A /* ProfileView.swift in Sources */,
+				82EB030A2CD5691D00AA3E9A /* EndpointProtocol.swift in Sources */,
+				82EB02B62CD0FF1E00AA3E9A /* Subscription.swift in Sources */,
+				82EB01FA2CCF948D00AA3E9A /* MainTabView.swift in Sources */,
+				82EB02BB2CD0FF6400AA3E9A /* PaymentsViewModel.swift in Sources */,
+				82EB02922CD0F5FE00AA3E9A /* ProfileService.swift in Sources */,
+				82EB02612CCFCEAA00AA3E9A /* QRCodeServiceProtocol.swift in Sources */,
+				82EB01F22CCF93D300AA3E9A /* MockAuthService.swift in Sources */,
+				82EB02482CCFB1E200AA3E9A /* ClubDeLuchaApp.swift in Sources */,
+				82EB026D2CCFCF2700AA3E9A /* Fight.swift in Sources */,
+				82EB02D92CD150D700AA3E9A /* APIEndpoint.swift in Sources */,
+				82EB02D32CD14EC700AA3E9A /* MockAPIService.swift in Sources */,
+				82EB024F2CCFCB6D00AA3E9A /* PhoneLoginView.swift in Sources */,
+				82EB02692CCFCF0A00AA3E9A /* QRCodeView.swift in Sources */,
+				82EB02752CD01A6900AA3E9A /* CalendarState.swift in Sources */,
+				82EB022A2CCFA30D00AA3E9A /* Training.swift in Sources */,
 				82EB01C52CCF8AC200AA3E9A /* ClubDeLuchaUITests.swift in Sources */,
+				82EB02CF2CD14EB200AA3E9A /* Keychain.swift in Sources */,
+				82EB02A62CD0FC2800AA3E9A /* SettingsViewModel.swift in Sources */,
+				82EB03022CD5688C00AA3E9A /* RealAuthService.swift in Sources */,
+				82EB02E12CD1512500AA3E9A /* KeyChainProtocol.swift in Sources */,
+				82EB02062CCF95A100AA3E9A /* ScheduleView.swift in Sources */,
+				82EB03062CD568AC00AA3E9A /* RealQRCodeService.swift in Sources */,
+				82EB02ED2CD1518F00AA3E9A /* APIService+Configuration.swift in Sources */,
+				82EB023C2CCFA7A700AA3E9A /* NotificationsViewModel.swift in Sources */,
+				82EB01FE2CCF94A400AA3E9A /* HomeView.swift in Sources */,
+				82EB02F52CD151EA00AA3E9A /* APIService+Empty.swift in Sources */,
+				82EB02322CCFA37300AA3E9A /* TrainingRowView.swift in Sources */,
+				82EB02DD2CD150FF00AA3E9A /* APIService+Token.swift in Sources */,
+				82EB01E22CCF8F1E00AA3E9A /* PhoneLoginViewModel.swift in Sources */,
+				82EB02FA2CD5681600AA3E9A /* DependencyContainer.swift in Sources */,
+				82EB02AC2CD0FC4D00AA3E9A /* SettingsView.swift in Sources */,
+				82EB03122CD5695F00AA3E9A /* APIError.swift in Sources */,
+				82EB02412CCFA7C700AA3E9A /* NotificationsView.swift in Sources */,
+				82EB02C42CD142E500AA3E9A /* Mocks.swift in Sources */,
+				82EB02CA2CD14E8100AA3E9A /* APIService.swift in Sources */,
+				82EB02462CCFA7F800AA3E9A /* NotificationRow.swift in Sources */,
+				82EB02E92CD1517800AA3E9A /* APIService+Methods.swift in Sources */,
+				82EB025C2CCFCE7200AA3E9A /* QRCodeService.swift in Sources */,
+				82EB02712CCFCF3B00AA3E9A /* FightRowView.swift in Sources */,
+				82EB028A2CD0F5C100AA3E9A /* Profile.swift in Sources */,
+				82EB030E2CD5694400AA3E9A /* APIClient.swift in Sources */,
+				82EB01EE2CCF93B900AA3E9A /* CoordinatorProtocol.swift in Sources */,
+				82EB02B12CD0FD2D00AA3E9A /* AppCoordinator+Settings.swift in Sources */,
+				82EB024C2CCFCA3D00AA3E9A /* String+Localised.swift in Sources */,
+				82EB02862CD0F5A900AA3E9A /* EditProfileViewModel.swift in Sources */,
+				82EB029C2CD0F65500AA3E9A /* MockProfileService.swift in Sources */,
+				82EB01F62CCF943E00AA3E9A /* AppCoordinator.swift in Sources */,
+				82EB02362CCFA76F00AA3E9A /* Notification.swift in Sources */,
+				82EB02572CCFCE4800AA3E9A /* QRCode.swift in Sources */,
+				82EB02C02CD0FFA200AA3E9A /* PaymentView.swift in Sources */,
+				82EB022E2CCFA34300AA3E9A /* ScheduleViewModel.swift in Sources */,
+				82EB02652CCFCED800AA3E9A /* HomeViewModel.swift in Sources */,
+				82EB02982CD0F62400AA3E9A /* AuthServiceProtocol.swift in Sources */,
 				82EB01C72CCF8AC200AA3E9A /* ClubDeLuchaUITestsLaunchTests.swift in Sources */,
+				82EB01E62CCF8FBF00AA3E9A /* AuthService.swift in Sources */,
+				82EB02792CD0E5AC00AA3E9A /* MenuItem.swift in Sources */,
+				82EB02FE2CD5686D00AA3E9A /* EmptyResponse.swift in Sources */,
+				82EB02262CCFA2E400AA3E9A /* Event.swift in Sources */,
+				82EB02F12CD151B100AA3E9A /* APIServiceProtocol.swift in Sources */,
+				82EB027D2CD0E5CB00AA3E9A /* StatItem.swift in Sources */,
+				82EB02A22CD0F6D800AA3E9A /* AppCoordinator+EditProfile.swift in Sources */,
+				82EB01EA2CCF939100AA3E9A /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
